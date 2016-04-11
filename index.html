@@ -6,12 +6,9 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="javascript" type="javascript" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
 	<style>
-		div.navbar{
-			background-color: black;
-
-		}
-		.block{
-			display: inline-block;
+		body{
+			font-family: Montserrat, sans-serif;
+			font-size: 16px;
 		}
 		ul{
 			display: inline-block;
@@ -24,19 +21,51 @@
 			padding: 2px 12px 0;
 		}
 		p{
+			margin: 10px auto 15px;
+			padding-bottom: 0;
+			line-height: 22px;
+			font-weight: 300;
+			text-align: left;
+			display: inline-block;
+		}
+		h1{
+			font-family: Montserrat, sans-serif;
+			font-size: 24px;
+		}
+		div.navbar{
+			background-color: black;
+
+		}
+		.support{
+			padding-bottom: 35px;
+		}
+		.block{
 			display: inline-block;
 		}
 		.color{
 			background-color: #0098ff
 		}
-		.support-tile{
+		.box{
 			margin: 20px;
+			padding-bottom: 20px;
+			width: 146px;
+			height: 146px;
+			display: inline-block;
+			text-align: center;
+			vertical-align: top;
+			color: #098ff;
+			font-size: 14px;
+			line-height: 15px;
+			padding-bottom: 0px 5px;
+			font-weight: bold;
+		}
+		.support-tile{
 			padding: 20px;
+			width: 146px;
+			height: 146px;
 			border-radius: 5px;
 			background-color: #0098ff;
 			box-shadow: 0 1px 11px 0 rgba(0,0,0,0.28);
-			width: 146px;
-			height: 146px;
 			display: inline-block;
 		}
 		.support-img img{
@@ -45,7 +74,8 @@
 			display: inline-block;
 			margin-right: 43px;
 		}
-		h2{
+		
+		.special{
 			display: block;
 		    width: auto;
 		    margin-top: 15px;
@@ -83,7 +113,7 @@
 		</div>
 	</div>
 	<div class='container'>
-		<h2>RAM Mounts Support</h2>
+		<h1>RAM Mounts Support</h1>
 		<div class='support-img'>
 			<img class='block' src="images/support-operator.jpg">
 			<p>
@@ -99,26 +129,44 @@
 		</p>
 		</div>
 		
-		<div class='support-email'>
-			<div class='text-center'>Email Support</div>
+		<div class='support'>
+			<div class='text-center'><strong>Support Emails</strong></div>
+			<div class='box'>
 				<div class='support-tile'>
 					<img class='img-responsive' src="images/questions.png">
 				</div>
+					<a>General Questions</a>
+			</div>
+			<div class='box'>
 				<div class='support-tile'>
 					<img class='img-responsive' src="images/tracking.png">
 				</div>
+					<a>Order Status / Tracking</a>
+			</div>
+			<div class='box'>
 				<div class='support-tile'>
 					<img class='img-responsive' src="images/custom.png">
 				</div>
+					<a>Custom/OEM Jobs</a>
+			</div>
+			<div class='box'>
 				<div class='support-tile'>
 					<img class='img-responsive' src="images/setup.png">
 				</div>
+					<a>Corporate Account Setup</a>
+			</div>
+			<div class='box'>
 				<div class='support-tile'>
 					<img class='img-responsive' src="images/government.png">
 				</div>
+					<a>Government Purchasing</a>
+			</div>
+			<div class='box'>
 				<div class='support-tile'>
 					<img class='img-responsive' src="images/engineering.png">
 				</div>
+					<a>Send Drawings, Models & Tecnical Data</a>
+			</div>
 		</div>
 		<p>
 			<strong>Mailing Address</strong>
@@ -127,30 +175,50 @@
 			<br>
 			8410 Dallas Avenue South, Seattle, WA 98108, USA
 		</p>
-		<h2>RAM Mount Suggestions?</h2>
+		<h2><span class='special'>RAM Mount Suggestions?</span></h2>
 		<p>Do you have an idea you would like to share with us but are concerned about protecting your intellectual property rights? At RAM, we take your ingenuity and privacy very seriously. If you have an idea you would like to share, simply download and sign two copies of our Non-Disclosure Agreement (NDA). Once we have received both copies from you, we will gladly add our signatures to both documents. We will keep one for our records and return the other to you for your records. Once you have received your signed copy, we can begin the open exchange of ideas having alleviated any concerns of infringement.</p>
-
-	</div>
-	<div class='container'>
-		<div class='text-center'>Support Links</div>
-			<div class='support-tile text-center'>
-				<img class='img-responsive' src="images/questions.png">
-			</div>
-			<div class='support-tile'>
-				<img class='img-responsive' src="images/tracking.png">
-			</div>
-			<div class='support-tile'>
-				<img class='img-responsive' src="images/custom.png">
-			</div>
-			<div class='support-tile'>
-				<img class='img-responsive' src="images/setup.png">
-			</div>
-			<div class='support-tile'>
-				<img class='img-responsive' src="images/government.png">
-			</div>
-			<div class='support-tile'>
-				<img class='img-responsive' src="images/engineering.png">
-			</div>
+		 <ol>
+                <li><a target="_blank" class="link" href="/files/pdf/NDARECIPROCAL.pdf">Non-Disclosure Agreement (NDA)</a></li>
+                <li><a href="mailto:suggestions@rammount.com?subject=Email%20Suggestions">Email Suggestions</a> (Please include completed NDA form)</li>
+              </ol>
+		<div class='support'>
+			<div class='text-center'><strong>Support Links</strong></div>
+				<div class='box'>
+					<div class='support-tile'>
+						<img class='img-responsive' src="images/faq.png">
+					</div>
+						<a>General Questions</a>
+				</div>
+				<div class='box'>
+					<div class='support-tile'>
+						<img class='img-responsive' src="images/order_status.png">
+					</div>
+						<a>Order Status / Tracking</a>
+				</div>
+				<div class='box'>
+					<div class='support-tile'>
+						<img class='img-responsive' src="images/login.png">
+					</div>
+						<a>Custom/OEM Jobs</a>
+				</div>
+				<div class='box'>
+					<div class='support-tile'>
+						<img class='img-responsive' src="images/partners.png">
+					</div>
+						<a>Corporate Account Setup</a>
+				</div>
+				<div class='box'>
+					<div class='support-tile'>
+						<img class='img-responsive' src="images/university.png">
+					</div>
+						<a>Government Purchasing</a>
+				</div>
+				<div class='box'>
+					<div class='support-tile'>
+						<img class='img-responsive' src="images/warrantys.png">
+					</div>
+						<a>Send Drawings, Models & Tecnical Data</a>
+				</div>
 		</div>
 	</div>
 	<div class='footer'>
